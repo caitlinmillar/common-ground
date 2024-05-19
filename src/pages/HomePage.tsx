@@ -3,10 +3,10 @@ import DateDisplay from '../components/DateDisplay'
 
 const HomePage: React.FC = () => {
     return (
-        <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-            <h1 style={{ fontSize: '4em' }}>Hello world!</h1>
-            <DateDisplay />
-        </div>
+        <div className="container">
+        <h1 className="text-center mt-5">Hello, Bootstrap 5 in React!</h1>
+        <p className="lead text-center">This is a simple example to show Bootstrap in action with React.</p>
+      </div>
     )
 }
 
